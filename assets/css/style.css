@@ -806,6 +806,7 @@ form .status i {
     .modal-dialog {
         display: block; /* Change to block for mobile */
     }
+}
 
 .modal-content {
     border-radius: 20px; /* Add border radius for rounded corners */
