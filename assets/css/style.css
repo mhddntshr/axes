@@ -795,11 +795,17 @@ form .status i {
 
 .modal-dialog {
     width: auto;
-    display: block;
+    position: relative;
+    display: inline-block; /* Default display */
     text-align: left;
     vertical-align: middle;
     max-width: 100%;
 }
+
+@media (max-width: 767px) {
+    .modal-dialog {
+        display: block; /* Change to block for mobile */
+    }
 
 .modal-content {
     border-radius: 20px; /* Add border radius for rounded corners */
